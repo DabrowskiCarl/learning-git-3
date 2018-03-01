@@ -6,11 +6,13 @@ body .main .container h1, p {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   margin: 15px auto; 
+  display: -ms-flexbox; 
   display: flex; 
 }
 
 .title {
   background-color: #cbdbd9;
+  display: -ms-flexbox;
   display: flex; }
 
 .chorus {
@@ -19,4 +21,4 @@ body .main .container h1, p {
 .verse {
   background-color: #FFFCF6; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.prefixed.css.map */
